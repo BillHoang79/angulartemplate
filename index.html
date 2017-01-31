@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--ng-app is used to declare where angular code starts -->
 <html ng-app="app">
 	<head>
 		<title></title>
@@ -8,8 +9,11 @@
 	</head>
 	<body>
 		<h1> Hello World!</h1>
+		<!-- ng controlller is used to operate views -->
+		<div ng-controller="MainController">
+		{{ val }}
 
-		{{23+23}}
+		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>			
 		<script src="js/main.js"></script>
